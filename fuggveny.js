@@ -5,7 +5,7 @@ export function HTMLosszeallit(lista, szulo) {
 }
 
 export function egyOrszag(obj, szulo) {
-    // Közvetlenül HTML kódként adjuk hozzá az ország div-t
+    
     const orszagHTML = `
         <div class="orszag">
             <h3>${obj.nev}</h3>
@@ -13,6 +13,6 @@ export function egyOrszag(obj, szulo) {
         </div>
     `;
     
-    // Az új HTML-t hozzáadjuk a szülő elemhez
+   
     szulo.innerHTML += orszagHTML;
 }
